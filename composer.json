@@ -1,0 +1,44 @@
+{
+	"name": "dimadin/wp-code-reference",
+	"description": "wporg-developer child theme with adjustments to use it for code reference of any WordPress project.",
+	"type": "wordpress-theme",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Milan Dinić",
+			"email": "milan@srpski.biz",
+			"homepage": "https://milandinic.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/dimadin/wp-code-reference/issues",
+		"source": "https://github.com/dimadin/wp-code-reference"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress/wporg-developer",
+				"type": "wordpress-theme",
+				"version": "1.0.0-alpha7612",
+				"source": {
+					"url": "https://meta.svn.wordpress.org",
+					"type": "svn",
+					"reference": "sites/trunk/wordpress.org/public_html/wp-content/themes/pub/wporg-developer/@7612"
+				}
+			}
+		}
+	],
+	"require": {
+		"php": ">=5.4",
+		"composer/installers": "~1.0",
+		"wordpress/phpdoc-parser": "dev-master",
+		"wpackagist-plugin/syntaxhighlighter": "~3.2",
+		"wordpress/wporg-developer": "1.0.0-alpha7612"
+	},
+	"minimum-stability": "dev"
+}
